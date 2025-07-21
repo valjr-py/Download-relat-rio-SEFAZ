@@ -30,7 +30,6 @@ def submit():
     except ValueError:
         messagebox.showerror("Erro", "Por favor, insira datas válidas no formato DD/MM/AAAA.")
 
-# Cria a janela principal
 root = tk.Tk()
 root.title("Data da competência")
 root.geometry("400x250") 
